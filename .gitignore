@@ -42,6 +42,11 @@
 *.idb
 *.pdb
 
+# Extensionless executables generated beside the C sources
+C_Essentials_2/**/[!.]*
+!C_Essentials_2/**/*.c
+!C_Essentials_2/**/
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
